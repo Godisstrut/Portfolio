@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 2em;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    gap: 2em;
+}
+
+.nav .name {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+a {
+    font-size: 1.7em;
+    padding: 1em 2em;
+}
+
+.header a:hover {
+    background-color: #646cff;
+    color: #fff;
+    border-radius: 10px;
+}

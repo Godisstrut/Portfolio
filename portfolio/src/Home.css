@@ -1,5 +1,21 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 2em;
+  margin-top: 5em;
+}
+
 .home img {
   width: 20em;
   height: 20em;
   border-radius: 50%;
+}
+
+.home p {
+  font-size: 2em;
+  font-weight: 700;
+  max-width: 1200px;
+  text-align: center;
 }
