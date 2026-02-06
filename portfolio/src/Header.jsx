@@ -4,11 +4,11 @@ function Header() {
     return(
         <header className="header">
             <nav className="nav">
-                <a className="name">Erik</a>
-                <a>Projekt</a>
-                <a>Erfarenhet</a>
+                <a className="name" href="#top" >Erik</a>
+                <a href="#projects" >Projekt</a>
+                <a href="#experience" >Erfarenhet</a>
             </nav>
-            <a className="contact">Kontakt</a>
+            <a className="contact" href="#contact">Kontakta mig</a>
         </header>
     )
 }
