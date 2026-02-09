@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Home from './Home'
-import Header from './Header'
-import Projects from './Projects'
+import Home from './Components/Home'
+import Header from './Components/Header'
+import Projects from './Components/Projects'
 
 function App() {
 
