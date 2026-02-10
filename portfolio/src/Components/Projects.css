@@ -1,3 +1,21 @@
 .projects {
     text-align: center;
 }
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: rgba(255,255,255,0.04);
+    border-radius: 16px;
+}
+
+video {
+    max-width: 30%;
+    margin: 0 auto;
+}
