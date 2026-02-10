@@ -20,9 +20,17 @@ export const projects = [
     {
         title: "SvelteSnyggingar ",
         description: "Quiz och gissa låten hemsida ",
-        technology: ["Svelte", "Javascript"],
+        technology: ["Svelte ", "Javascript"],
         video: null,
         live: null,
         github: "https://github.com/Godisstrut/SvelteSnyggingar"
+    },
+    {
+        title: "Warhammer Simulator",
+        description: "simulerings program för warhammer 40k brädspelet",
+        technology: ["Python ", "OOP "],
+        video: null,
+        live: null,
+        github: "https://github.com/Godisstrut/WarhammerCombatSimulator"
     }
 ]
