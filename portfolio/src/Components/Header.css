@@ -5,19 +5,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em 1em;
-    max-width: 60%;
-    margin: 0 auto;
+    width: 100%;
+    background-color: #1B2D2A;
 }
 
 .nav {
     display: flex;
     gap: 2em;
+    margin: 0 auto;
 }
 
 .nav .name {
     font-weight: 700;
     letter-spacing: 0.5px;
+}
+
+.contact {
+    margin-right: 12em;
 }
 
 a {
@@ -26,7 +30,7 @@ a {
 }
 
 .header a:hover {
-    background-color: #646cff;
+    background-color: #141bae;
     color: #fff;
     border-radius: 10px;
 }

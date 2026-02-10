@@ -16,5 +16,13 @@ export const projects = [
         video: null,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
+    },
+    {
+        title: "SvelteSnyggingar ",
+        description: "Quiz och gissa låten hemsida ",
+        technology: ["Svelte", "Javascript"],
+        video: null,
+        live: null,
+        github: "https://github.com/Godisstrut/SvelteSnyggingar"
     }
 ]
