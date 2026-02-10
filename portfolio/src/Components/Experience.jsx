@@ -14,7 +14,7 @@ function Experience() {
                     <li>Machine learning</li>
                 </ul>
                 <h2>Säljare</h2>
-                <h3>Kjell & Company</h3>
+                <h3>Kjell & Company - Lund</h3>
                 <p>Jul 2020 - Aug 2022</p>
                 <ul>
                     <li>Säljare med stort fokus på tekniken bakom produkterna</li>
@@ -22,7 +22,7 @@ function Experience() {
                     <li>Kundkontakt och kundservice</li>
                 </ul>
                 <h2>Barnskötare</h2>
-                <h3>Ängslyckans förskola</h3>
+                <h3>Ängslyckans förskola - Hjärup</h3>
                 <p>September 2016 - Juni 2020</p>
                 <ul>
                     <li>Säljare med stort fokus på tekniken bakom produkterna</li>

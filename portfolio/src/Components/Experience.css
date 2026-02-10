@@ -1,5 +1,18 @@
 .experience h1 {
     text-align: center;
+    margin: 3em 0 1em 0;
+}
+
+.experience h2, h3 {
+    margin: 2px;
+}
+
+.experience h2 {
+    padding-top: 1em;
+}
+
+.experience h3 {
+    font-weight: 450;;
 }
 
 .experience-container {
