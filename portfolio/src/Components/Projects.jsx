@@ -4,7 +4,7 @@ import {projects} from "./ProjectsData";
 
 function Projects() {
 
-    const [openProject, setOpenProject] = useState(null);
+    const [openProject, setOpenProject] = useState(null); // Null means no project is open
     function toggleProject(index) {
         if (openProject === index) {
             setOpenProject(null);
@@ -12,7 +12,7 @@ function Projects() {
             setOpenProject(index);
         }
     }
-   return (
+    return (
     <section id="projects" className="projects">
       <h1>Mina Projekt</h1>
 
@@ -29,16 +29,16 @@ function Projects() {
                   <h2>{project.title}</h2>
                 </div>
                 <p>{project.description}</p>
-                <div className="project-video">
-                  {isOpen && (
-                    project.video ? (
-                      <video autoPlay muted loop playsInline>
+                <div className={`project-video ${isOpen ? "open" : ""}`}>
+                    {project.video ? (
+                        <video muted loop playsInline autoPlay={isOpen} preload="metadata">
                         <source src={project.video} type="video/mp4" />
-                      </video>) : (
-                      <div className="video-placeholder">
+                        </video>
+                    ) : (
+                        <div className="video-placeholder">
                         <span>Ingen demo-video</span>
-                      </div>)
-                  )}
+                        </div>
+                    )}
                 </div>
                 <div className="project-technologies">
                   {project.technology.map((tech, i) => (

@@ -6,11 +6,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: #1B2D2A;
+    background-color: #141a1a;
 }
 
 .header.scrolled {
-    background-color: #141a1a;
+    background-color: #020122;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     transition: 0.2s ease-in-out;
 }
