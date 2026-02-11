@@ -12,7 +12,7 @@ function Projects() {
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
                     <div className="project-video">
-                        <video autoPlay muted loop controls>
+                        <video autoPlay muted loop playsInline>
                              <source src={project.video} type="video/mp4" />
                         </video>
                     </div>
@@ -21,8 +21,12 @@ function Projects() {
                             <span key={i}>{tech}</span>))}
                     </div>
                         <div className="project-links">
-                            <a href={project.live} target="_blank" rel="noopener noreferrer">Hemsida</a>
-                            <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+                            {project.live && (
+                                <a href={project.live} target="_blank" rel="noopener noreferrer">Hemsida</a>
+                            )}
+                            {project.github && (
+                                <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+                            )}
                         </div>
                     </div>
                 </article>

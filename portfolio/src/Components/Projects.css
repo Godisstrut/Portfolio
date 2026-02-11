@@ -1,5 +1,6 @@
 .projects {
     text-align: center;
+    background-color: #161616
 }
 
 .project-container {
@@ -8,6 +9,11 @@
     gap: 2em;
     max-width: 80%;
     margin: 0 auto;
+    padding: 0 0 6em 0;
+}
+
+.projects h1 {
+    padding: 3em 0 0 0;
 }
 
 .project-card {
