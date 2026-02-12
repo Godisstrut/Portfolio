@@ -1,10 +1,13 @@
-import {useState} from "react";
+import {useState, useEffect, useRef} from "react";
 import "./Projects.css";
 import {projects} from "./ProjectsData";
 
 function Projects() {
 
-    const [openProject, setOpenProject] = useState(null); // Null means no project is open
+    // Null betyder att inget projekt är öppet, annars index för det öppna projektet
+    const [openProject, setOpenProject] = useState(null);
+    const videoRefs = useRef({});
+
     function toggleProject(index) {
         if (openProject === index) {
             setOpenProject(null);
@@ -12,13 +15,29 @@ function Projects() {
             setOpenProject(index);
         }
     }
+      useEffect(() => { // Pausa alla videos när ett projekt öppnas eller stängs
+    Object.values(videoRefs.current).forEach(v => {
+      if (!v) return;
+      v.pause();
+    });
+
+    // Spelar upp videon för projektet som öppnades
+    if (openProject !== null) {
+      const v = videoRefs.current[openProject];
+      if (v) {
+        const p = v.play();
+      }
+    }
+  }, [openProject]);
+
     return (
     <section id="projects" className="projects">
       <h1>Mina Projekt</h1>
 
       <div className="project-container">
         {projects.map((project, index) => {
-          const isOpen = openProject === index;
+          const isOpen = openProject === index; // Kollar om projektet är öppet
+          
           return (
             <article
               key={index}
@@ -31,7 +50,7 @@ function Projects() {
                 <p>{project.description}</p>
                 <div className={`project-video ${isOpen ? "open" : ""}`}>
                     {project.video ? (
-                        <video muted loop playsInline autoPlay={isOpen} preload="metadata">
+                        <video ref={el => videoRefs.current[index] = el} muted loop playsInline autoPlay={isOpen} preload="metadata">
                         <source src={project.video} type="video/mp4" />
                         </video>
                     ) : (

@@ -4,7 +4,7 @@ export const projects = [
     {
         title: "Malmö Skin Clinic AB ",
         description: "Företagshemsida för en estetisk klinik",
-        technology: ["React ", "Cloudflare"],
+        technology: ["React ", "Cloudflare Pages"],
         video: malmoskinclinic,
         live: "https://malmoskinclinic.se/",
         github: "https://github.com/Godisstrut/SkinClinicWebsite"
@@ -12,7 +12,7 @@ export const projects = [
     {
         title: "PingisPalz ",
         description: "Projekt gjort under termin två ",
-        technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL "],
+        technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
         video: null,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
