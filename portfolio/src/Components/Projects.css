@@ -1,6 +1,6 @@
 .projects {
     text-align: center;
-    background-color: #161616
+    background-color: #161616;
 }
 
 .project-container {
@@ -16,8 +16,9 @@
     padding: 3em 0 0 0;
 }
 
-.project-links {
-    padding: 0.5em;
+.project-links a {
+    padding: 1em;
+    font-size: 1.2em;
 }
 
 .project-card {
@@ -25,7 +26,6 @@
     border-radius: 16px;
     border: 1px solid rgba(255,255,255,0.1);
     padding: 2.5em;
-    transition: 0.3s ease;
 }
 
 .project-card:hover {
@@ -36,6 +36,7 @@
 }
 
 .project-technologies {
+    margin: 1em;
     color: #f1b900;
 }
 
@@ -60,16 +61,13 @@ video {
 .project-video {
   margin-top: 1em;
   /* animation code for sliding the video out */
-  max-height: 0;
+  display: none;
   opacity: 0;
   transform: translateY(-6px);
-  overflow: hidden;
-  transition: max-height 350ms ease, opacity 250ms ease, transform 250ms ease;
-  will-change: max-height, opacity, transform;
 }
 
 .project-video.open {
-  max-height: 900px;
+  display: block;
   opacity: 1;
   transform: translateY(0);
 }

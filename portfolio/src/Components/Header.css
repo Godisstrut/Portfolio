@@ -27,16 +27,34 @@
 }
 
 .contact {
-    margin-right: 12em;
+    margin-right: 16em;
 }
 
-a {
+.nav a {
     font-size: 1.6em;
     padding: 0.7em 0.7em;
 }
 
-.header a:hover {
+.nav a:hover {
     background-color: #141bae;
     color: #fff;
     border-radius: 10px;
+}
+
+button.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button.contact {
+    font-size: 1.4em;
+    background-color: #f56200; 
+    border-radius: 18px;
+    transition: 0.3s ease;
+}
+
+button.contact:hover {
+    background-color: #d83f08;
+    color: #fff;
+    transform: translateY(-2px);
 }

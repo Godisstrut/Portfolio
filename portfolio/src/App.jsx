@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import Projects from './Components/Projects'
 import Experience from './Components/Experience'
 import Footer from './Components/Footer'
+import Contact from './Components/Contact'
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
     <div className='app'>
       <Header/>
       <Home/>
-      <Projects/>
+      <Projects/> 
       <Experience />
+      <Contact />
       <Footer/>
     </div>
   )

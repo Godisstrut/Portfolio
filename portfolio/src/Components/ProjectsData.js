@@ -13,7 +13,7 @@ export const projects = [
         title: "PingisPalz ",
         description: "Projekt gjort under termin två, hemsida som hjälper dig registrera resultat från pingismatcher du spelat",
         technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
-        video: null,
+        video: malmoskinclinic,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
     },
@@ -21,7 +21,7 @@ export const projects = [
         title: "SvelteSnyggingar ",
         description: "Quiz och gissa låten hemsida ",
         technology: ["Svelte ", "Javascript"],
-        video: null,
+        video: malmoskinclinic,
         live: null,
         github: "https://github.com/Godisstrut/SvelteSnyggingar"
     },

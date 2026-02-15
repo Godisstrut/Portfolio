@@ -8,8 +8,8 @@
 }
 
 .home img {
-  width: 30em;
-  height: 30em;
+  width: 28em;
+  height: 28em;
   border-radius: 50%;
 }
 
@@ -23,4 +23,5 @@
   font-weight: 600;
   max-width: 1200px;
   text-align: center;
+  margin: 0;
 }

@@ -21,7 +21,7 @@ function Header() {
                 <a href="#projects" >Projekt</a>
                 <a href="#experience" >Erfarenhet</a>
             </nav>
-        <a className="contact" href="#contact">Kontakta mig</a>
+        <button className="contact"><a href="#contact">Kontakta mig</a></button>
         </header>
     )
 }

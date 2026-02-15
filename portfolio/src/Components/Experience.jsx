@@ -3,10 +3,10 @@ import "./Experience.css";
 
 function Experience() {
 
-    const containerRef = useRef(null); // Referens till containern som håller alla erfarenhets-sektioner
+    const containerRef = useRef(null); // Referens till containern som håller alla erfarenhets sektioner
     useEffect(() => {
         const elements = containerRef.current.querySelectorAll(".experience-reveal-on-scroll");
-        elements.forEach((el, i) => el.style.setProperty("--delay", `${i * 120}ms`)) //Sätter ut en delay variabel
+        elements.forEach((el, i) => el.style.setProperty("--delay", `${i * 120}ms`)) // Sätter ut en delay variabel
 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -19,7 +19,7 @@ function Experience() {
             },
             { threshold: 0.2, rootMargin: "0px 0px -10% 0px" }
         );
-        elements.forEach((el) => observer.observe(el));
+        elements.forEach((el) => observer.observe(el)); 
         return () => observer.disconnect();
    }, []);
 
@@ -32,7 +32,7 @@ function Experience() {
                     <h3>Vocify</h3>
                     <p>Nov 2025 - Nutid</p>
                     <ul>
-                        <li>Utför tester för datainsamling</li>
+                        <li>plannerar och utför praktiska tester för datainsamling</li>
                         <li>Labbmiljö</li>
                         <li>Machine learning</li>
                     </ul>
@@ -48,14 +48,14 @@ function Experience() {
                     </ul>
                 </section>
                 <section className="experience-reveal-on-scroll">
-                <h2>Barnskötare</h2>
-                <h3>Ängslyckans förskola - Hjärup</h3>
-                <p>September 2016 - Juni 2020</p>
-                <ul>
-                    <li>Säljare med stort fokus på tekniken bakom produkterna</li>
-                    <li>Självledarskap</li>
-                    <li>Kundkontakt och kundservice</li>
-                </ul>
+                    <h2>Barnskötare</h2>
+                    <h3>Ängslyckans förskola - Hjärup</h3>
+                    <p>September 2016 - Juni 2020</p>
+                    <ul>
+                        <li>Organiserade utflykter, aktiviteter och lekar för barnen</li>
+                        <li>Relationsbyggande mellan barn och föräldrar</li>
+                        <li>Stresshantering</li>
+                    </ul>
                 </section>
             </div>
         </section>
