@@ -52,12 +52,11 @@ button.contact {
     background-color: #f56200; 
     border-radius: 18px;
     transition: 0.3s ease;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 button.contact:hover {
     background-color: #d83f08;
     color: #fff;
     transform: translateY(-2px);
-    font-weight: 600;
 }

@@ -1,4 +1,4 @@
-import ErikBoi from "../assets/Erik_boi.jpg";
+import ErikBoi from "../assets/Examen.jpeg";
 import "./Home.css"
 
 function Home() {

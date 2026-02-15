@@ -9,8 +9,10 @@
 
 .home img {
   width: 28em;
-  height: 28em;
+  height: auto;
   border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 
 .home h1 {
