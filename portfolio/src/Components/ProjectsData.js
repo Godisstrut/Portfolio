@@ -3,7 +3,7 @@ import malmoskinclinic from "../assets/malmoskinclinic.mp4";
 export const projects = [
     {
         title: "Malmö Skin Clinic AB ",
-        description: "Företagshemsida för en estetisk klinik",
+        description: "Företagshemsida för en estetisk klinik i Malmö",
         technology: ["React ", "Cloudflare Pages"],
         video: malmoskinclinic,
         live: "https://malmoskinclinic.se/",
@@ -11,7 +11,7 @@ export const projects = [
     },
     {
         title: "PingisPalz ",
-        description: "Projekt gjort under termin två, hemsida som hjälper dig registrera resultat från pingismatcher du spelat",
+        description: "Leaderboard hemsida som låter dig registrera resultat från pingismatcher du spelat",
         technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
         video: malmoskinclinic,
         live: null,
@@ -19,7 +19,7 @@ export const projects = [
     },
     {
         title: "SvelteSnyggingar ",
-        description: "Quiz och gissa låten hemsida ",
+        description: "Quiz och musikquiz i ett hemsida ",
         technology: ["Svelte ", "Javascript"],
         video: malmoskinclinic,
         live: null,
@@ -27,7 +27,7 @@ export const projects = [
     },
     {
         title: "Warhammer Simulator",
-        description: "simulerings program för warhammer 40k brädspelet",
+        description: "Simulerings program för warhammer 40k brädspelet",
         technology: ["Python ", "OOP "],
         video: null,
         live: null,
