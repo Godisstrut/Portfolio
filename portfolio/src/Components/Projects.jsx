@@ -3,25 +3,25 @@ import "./Projects.css";
 import { projects } from "./ProjectsData";
 
 function Projects() {
-  const [openProject, setOpenProject] = useState(null);
-  const videoRefs = useRef({});
-  const prevOpenRef = useRef(null);
+  const [openProject, setOpenProject] = useState(null); // null betyder ingen öppen, annars index
+  const videoRefs = useRef({}); // refferens till alla videor
+  const prevOpenRef = useRef(null); 
 
   const toggleProject = (index) => {
-    if (openProject === index) {
+    if (openProject === index) { // Gör så video stängs om samma projekt klickas igen
       setOpenProject(null);
       return;
     }
-    setOpenProject(index);
+    setOpenProject(index); // Öppna det nya projektet
   };
 
   useEffect(() => {
-    // pausa förra 
+    // pausa förra video
     if (prevOpenRef.current !== null) {
       videoRefs.current[prevOpenRef.current]?.pause();
     }
 
-    // spela nya
+    // spela upp den nya videon
     if (openProject !== null) {
       videoRefs.current[openProject]?.play().catch(() => {});
     }
@@ -36,7 +36,6 @@ function Projects() {
       <div className="project-container">
         {projects.map((project, index) => {
           const isOpen = openProject === index;
-
           return (
             <article
               key={index}
@@ -50,15 +49,12 @@ function Projects() {
                 <p>{project.description}</p>
                 <div className={"project-video " + (isOpen ? "open" : "")}>
                   {project.video ? (
-                    <video
-                      ref={(el) => {
-                        if (el) videoRefs.current[index] = el;
-                      }}
+                    <video ref={(el) => {
+                      if (el) videoRefs.current[index] = el;}}
                       muted
                       loop
                       playsInline
-                      preload="metadata"
-                    >
+                      preload="metadata">
                       <source src={project.video} type="video/mp4" />
                     </video>
                   ) : (

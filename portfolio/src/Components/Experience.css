@@ -21,7 +21,7 @@
     align-items: center;
     gap: 2em;
     margin: 0 auto;
-    padding: 2em;
+    padding: 1em 0 5em 0 ;
 }
 
 .experience-reveal-on-scroll {

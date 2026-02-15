@@ -57,4 +57,5 @@ button.contact:hover {
     background-color: #d83f08;
     color: #fff;
     transform: translateY(-2px);
+    font-weight: 600;
 }

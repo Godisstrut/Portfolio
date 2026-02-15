@@ -28,7 +28,7 @@ function Experience() {
             <h1>Erfarenhet</h1>
             <div className="experience-container" ref={containerRef} >
                 <section className="experience-reveal-on-scroll">
-                    <h2>Projekt ansvarig</h2>
+                    <h2>Projektansvarig</h2>
                     <h3>Vocify</h3>
                     <p>Nov 2025 - Nutid</p>
                     <ul>
