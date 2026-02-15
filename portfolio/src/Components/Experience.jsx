@@ -32,7 +32,7 @@ function Experience() {
                     <h3>Vocify</h3>
                     <p>Nov 2025 - Nutid</p>
                     <ul>
-                        <li>plannerar och utför praktiska tester för datainsamling</li>
+                        <li>Plannerar och utför praktiska tester för datainsamling</li>
                         <li>Labbmiljö</li>
                         <li>Machine learning</li>
                     </ul>

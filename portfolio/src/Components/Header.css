@@ -33,6 +33,7 @@
 .nav a {
     font-size: 1.6em;
     padding: 0.7em 0.7em;
+    font-weight: 600;
 }
 
 .nav a:hover {
@@ -51,6 +52,7 @@ button.contact {
     background-color: #f56200; 
     border-radius: 18px;
     transition: 0.3s ease;
+    font-weight: 600;
 }
 
 button.contact:hover {
