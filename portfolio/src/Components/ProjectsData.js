@@ -14,7 +14,7 @@ export const projects = [
         title: "PingisPalz ",
         description: "Leaderboard hemsida som låter dig registrera resultat från pingismatcher du spelat",
         technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
-        video: malmoskinclinic,
+        video: null,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
     },
