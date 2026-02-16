@@ -94,6 +94,8 @@ video {
     height: auto;
     object-fit: cover;
     border-radius: 12px;
+}
+
 @media (max-width: 1200px) {
     .project-container {
         display: flex;
