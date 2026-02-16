@@ -33,6 +33,7 @@
 .nav a {
     font-size: 1.6em;
     padding: 0.7em 0.7em;
+    font-weight: 600;
 }
 
 .nav a:hover {
@@ -51,11 +52,64 @@ button.contact {
     background-color: #f56200; 
     border-radius: 18px;
     transition: 0.3s ease;
+    font-weight: 700;
 }
 
 button.contact:hover {
     background-color: #d83f08;
     color: #fff;
     transform: translateY(-2px);
-    font-weight: 600;
+}
+
+@media (max-width: 1500px) {
+    .contact {
+        margin-right: 5em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact {
+        margin-right: 2em;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        margin-right: 1em;
+    }
+
+    .nav a {
+        font-size: 1.3em;
+        padding: 0.7em 0.7em;
+    }
+
+    button.contact {
+        font-size: 1.1em;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .header {
+        position: relative;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .nav a {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 1em;
+        margin: 0 auto;
+        padding: 0.5em;
+    }
+
+    button.contact {
+        font-size: 1em;
+        margin: 1em;
+    }
 }
