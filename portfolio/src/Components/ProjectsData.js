@@ -1,6 +1,7 @@
 import malmoskinclinic from "../assets/malmoskinclinic.mp4";
-import PpHome from "../assets/PP_home.png";
+import pphome from "../assets/PP_home.png";
 import sveltesnyggingar from "../assets/SvelteSnyggingar.mp4";
+import warhammer from "../assets/Warhammer.mp4";
 
 export const projects = [
     {
@@ -16,7 +17,7 @@ export const projects = [
         description: "Leaderboard hemsida som låter dig registrera resultat från pingismatcher du spelat",
         technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
         video: null,
-        image: PpHome,
+        image: pphome,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
     },
@@ -32,7 +33,7 @@ export const projects = [
         title: "Warhammer Simulator",
         description: "Simulerings program för warhammer 40k brädspelet",
         technology: ["Python ", "OOP "],
-        video: null,
+        video: warhammer,
         live: null,
         github: "https://github.com/Godisstrut/WarhammerCombatSimulator"
     }
