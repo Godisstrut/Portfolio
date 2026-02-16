@@ -35,3 +35,9 @@
     transform: translateY(0);
     filter: blur(0);
 }
+
+@media (max-width: 500px) {
+    .experience-reveal-on-scroll {
+        padding: 1em;
+    }
+}
