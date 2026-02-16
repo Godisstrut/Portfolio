@@ -1,4 +1,5 @@
 import malmoskinclinic from "../assets/malmoskinclinic.mp4";
+import sveltesnyggingar from "../assets/SvelteSnyggingar.mp4";
 
 export const projects = [
     {
@@ -21,7 +22,7 @@ export const projects = [
         title: "SvelteSnyggingar ",
         description: "Quiz och musikquiz i ett hemsida ",
         technology: ["Svelte ", "Javascript"],
-        video: malmoskinclinic,
+        video: sveltesnyggingar,
         live: null,
         github: "https://github.com/Godisstrut/SvelteSnyggingar"
     },

@@ -27,3 +27,18 @@
   text-align: center;
   margin: 0;
 }
+
+@media (max-width: 700px) {
+    .home img {
+      width: 15em;
+      height: auto;
+    }
+
+    .home p {
+      font-size: 1.1em;
+    }
+
+    .home h1 {
+      font-size: 2em;
+    }
+}

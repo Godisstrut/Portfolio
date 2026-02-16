@@ -19,7 +19,12 @@
 
 .project-links a {
     padding: 1em;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    font-weight: 550;
+}
+
+.project-links {
+    margin: 2em 0 0.5em 0;
 }
 
 .project-card {
@@ -82,4 +87,21 @@ video {
   height: 600px; /* Actual height of video */
   object-fit: cover;
   border-radius: 12px;
+}
+
+@media (max-width: 1200px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .project-links {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-links a {
+        padding: 1em;
+    }
 }
