@@ -23,7 +23,7 @@ export const projects = [
         title: "SvelteSnyggingar ",
         description: "Quiz och gissa låten hemsida ",
         technology: ["Svelte ", "Javascript"],
-        video: malmoskinclinic,
+        video: null,
         live: null,
         github: "https://github.com/Godisstrut/SvelteSnyggingar"
     },
