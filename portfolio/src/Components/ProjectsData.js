@@ -1,4 +1,5 @@
 import malmoskinclinic from "../assets/malmoskinclinic.mp4";
+import PpHome from "../assets/PP_home.png";
 
 export const projects = [
     {
@@ -13,7 +14,8 @@ export const projects = [
         title: "PingisPalz ",
         description: "Projekt gjort under termin två, hemsida som hjälper dig registrera resultat från pingismatcher du spelat",
         technology: ["HTML ", "CSS ", "Javascript ", "PostgreSQL ", "Node.js "],
-        video: malmoskinclinic,
+        video: null,
+        image: PpHome,
         live: null,
         github: "https://github.com/jenslars/Pingispalz"
     },

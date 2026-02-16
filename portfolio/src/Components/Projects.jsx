@@ -40,8 +40,7 @@ function Projects() {
             <article
               key={index}
               className={`project-card ${isOpen ? "open" : ""}`}
-              onClick={() => toggleProject(index)}
-            >
+              onClick={() => toggleProject(index)}>
               <div className="project-content">
                 <div className="project-header">
                   <h2>{project.title}</h2>
@@ -57,13 +56,14 @@ function Projects() {
                       preload="metadata">
                       <source src={project.video} type="video/mp4" />
                     </video>
+                  ) : project.image ? (
+                    <img className="project-image" src={project.image} alt={project.title} />
                   ) : (
                     <div className="video-placeholder">
                       <span>Ingen demo-video</span>
                     </div>
                   )}
                 </div>
-
                 <div className="project-technologies">
                   {project.technology.map((tech, i) => (
                     <span key={i}>{tech}</span>
