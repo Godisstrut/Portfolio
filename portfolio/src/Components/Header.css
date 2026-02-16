@@ -61,9 +61,23 @@ button.contact:hover {
     transform: translateY(-2px);
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 2000px) {
+    .nav a {
+        font-size: 1.4em;
+    }
+
+    button.contact {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 1700px) {
     .contact {
         margin-right: 5em;
+    }
+
+    .nav a {
+        font-size: 1.4em;
     }
 }
 
@@ -71,6 +85,7 @@ button.contact:hover {
     .contact {
         margin-right: 2em;
     }
+
 }
 
 @media (max-width: 800px) {
