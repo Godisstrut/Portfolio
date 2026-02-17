@@ -4,7 +4,7 @@ import { projects } from "./ProjectsData";
 
 function Projects() {
   const [openProject, setOpenProject] = useState(null); // null betyder ingen öppen, annars index
-  const videoRefs = useRef({}); // refferens till alla videor
+  const videoRefs = useRef({}); // referens till alla videor
   const prevOpenRef = useRef(null); 
 
   const toggleProject = (index) => {
