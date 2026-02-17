@@ -1,6 +1,6 @@
 import malmoskinclinic from "../assets/malmoskinclinic.mp4";
 import pphome from "../assets/PP_home.png";
-import sveltesnyggingar from "../assets/SvelteSnyggingar.mp4";
+import sveltesnyggingar from "../assets/SvelteVideo.mp4";
 import warhammer from "../assets/Warhammer.mp4";
 
 export const projects = [
