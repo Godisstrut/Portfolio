@@ -12,9 +12,18 @@
     padding: 0 0 6em 0;
 }
 
+.projects p {
+    color: #fff;
+}
+
 .projects h1 {
+    color: #fff;
     font-size: 2.1em;
     padding: 3em 0 0 0;
+}
+
+.projects h2 {
+    color: #fff;
 }
 
 .project-links a {
