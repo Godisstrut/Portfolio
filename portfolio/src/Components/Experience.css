@@ -1,11 +1,11 @@
 .experience h1 {
     text-align: center;
-    margin: 2em 0 0 0;
     color: #fff;
 }
 
 .experience {
     background-color: #111111;
+    padding: 4em 0;
 }
 
 .experience h2, h3 {
