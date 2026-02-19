@@ -34,6 +34,7 @@
     font-size: 1.6em;
     padding: 0.7em 0.7em;
     font-weight: 600;
+    transition: 0.2s ease;
 }
 
 .nav a:hover {
@@ -56,9 +57,10 @@ button.contact {
 }
 
 button.contact:hover {
-    background-color: #d83f08;
+    background-color: #da0505;
     color: #fff;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
+    
 }
 
 @media (max-width: 2000px) {
