@@ -32,9 +32,9 @@ function Experience() {
                     <h3>Vocify</h3>
                     <p>Nov 2025 - Nutid</p>
                     <ul>
-                        <li>Plannerar och utför praktiska tester för datainsamling</li>
-                        <li>Labbmiljö</li>
-                        <li>Machine learning</li>
+                        <li>Planerar och utför praktiska tester av elektronisk näsa</li>
+                        <li>Samlar in sensordata i labbmiljö</li>
+                        <li>Dokumenterar testresultat</li>
                     </ul>
                 </section>
                 <section className="experience-reveal-on-scroll">
