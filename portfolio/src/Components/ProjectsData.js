@@ -1,4 +1,4 @@
-import malmoskinclinic from "../assets/MalmöSkinClinicAB.mp4";
+import malmoskinclinic from "../assets/MalmöSkinClinicVideo.mp4";
 import pphome from "../assets/PP_home.png";
 import sveltesnyggingar from "../assets/LyricTriviaGuesserDemo.mp4";
 import warhammer from "../assets/Warhammer.mp4";
