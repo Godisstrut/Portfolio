@@ -43,23 +43,21 @@
     border-radius: 10px;
 }
 
-button.contact a {
+.contact {
+    font-size: 1.4em;
     color: #fff;
     text-decoration: none;
-}
-
-button.contact {
-    font-size: 1.4em;
+    padding: 0.7em 1.1em;
     background-color: #f56200; 
     border-radius: 18px;
     transition: 0.3s ease;
     font-weight: 700;
 }
 
-button.contact:hover {
+.contact:hover {
     background-color: #da0505;
     color: #fff;
-    transform: translateY(-1px);
+    transform: scale(1.05);
     
 }
 
