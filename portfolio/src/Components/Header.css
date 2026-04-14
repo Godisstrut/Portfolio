@@ -57,8 +57,11 @@
 .contact:hover {
     background-color: #da0505;
     color: #fff;
-    transform: scale(1.05);
-    
+}
+
+.contact:active {
+    transform: scale(0.95);
+    background-color: #f56200;
 }
 
 @media (max-width: 2000px) {
